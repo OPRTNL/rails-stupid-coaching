@@ -19,7 +19,7 @@ class QuestionsTest < ApplicationSystemTestCase
     fill_in "question", with: "I am going to work"
     click_on "Ask"
     assert_text "Great!"
-    take_screenshot
+    cdtake_screenshot
   end
 
 end
